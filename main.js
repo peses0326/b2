@@ -7,7 +7,8 @@ const TOTAL = 100;
 const petalArray = [];
 
 const petalImg = new Image();
-petalImg.src = "https://djjjk9bjm164h.cloudfront.net/petal.png";
+// petalImg.src = "https://djjjk9bjm164h.cloudfront.net/petal.png";
+petalImg.src = "src/벚꽃잎.png";
 petalImg.addEventListener("load", () => {
   for (let i = 0; i < TOTAL; i++) {
     petalArray.push(new Petal());
